@@ -3,8 +3,6 @@ import { NavLink, Outlet } from "react-router-dom";
 const Root = () => {
     return (
         <div>
-            <h1>hello</h1>
-
             <nav>
                 <ul>
                     <li><NavLink className={({ isActive }) => (isActive ? "active" : "")}
